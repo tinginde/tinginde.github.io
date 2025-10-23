@@ -100,6 +100,30 @@ section:last-child {
   margin-bottom: 0;
 }
 
+.project-item {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.project-item p:last-child {
+  margin-bottom: 0;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 h2 {
   color: #667eea;
   font-size: 1.8em;
